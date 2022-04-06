@@ -8,9 +8,15 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+    
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    var AnimalsSentOver = " "
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        nameLabel.text = "gorilla"
 
         // Do any additional setup after loading the view.
     }
